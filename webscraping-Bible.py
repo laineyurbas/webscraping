@@ -42,7 +42,7 @@ client = Client(keys.accountSID, keys.authtoken)
 
 TwilioNumber = "+14072891580"
 
-mycellphone = '+8179882443'
+mycellphone = '+13038804356'
 
 textmessage = client.messages.create(to=mycellphone, from_=TwilioNumber,
                                      body = verse)
